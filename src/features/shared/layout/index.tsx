@@ -11,6 +11,7 @@ export const Layout: FC = (props) => {
         />
         <link href="/static/style.css" rel="stylesheet" />
         <script src="/static/htmx.min.js" defer></script>
+        <script src="/static/htmx.rt.js" defer></script>
       </head>
       <body>{props.children}</body>
     </html>

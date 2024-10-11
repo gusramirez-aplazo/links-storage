@@ -13,3 +13,7 @@
 .is-danger {
   color: lightpink;
 }
+
+#app-form--messages:empty {
+  display: none;
+}
