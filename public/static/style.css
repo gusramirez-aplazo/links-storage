@@ -1,0 +1,15 @@
+.app-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: min(500px, 100%);
+  margin: 0 auto;
+}
+
+.is-success {
+  color: lightseagreen;
+}
+
+.is-danger {
+  color: lightpink;
+}
