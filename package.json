@@ -8,6 +8,7 @@
     "deploy": "$npm_execpath run build && wrangler pages deploy"
   },
   "dependencies": {
+    "@hono/sentry": "^1.2.0",
     "hono": "^4.6.3"
   },
   "devDependencies": {
