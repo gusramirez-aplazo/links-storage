@@ -5,7 +5,11 @@ import { secureHeaders } from 'hono/secure-headers'
 import { api } from './api'
 import { Home } from './features/home'
 
-const app = new Hono()
+type Bindings = {
+  SENTRY_DSN: string
+}
+
+const app = new Hono<{ Bindings: Bindings }>()
 
 app.use(secureHeaders())
 app.use(logger())
